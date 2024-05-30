@@ -1,0 +1,108 @@
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #c77912b0;
+    display: flex;
+    width: 100%;
+    margin: 0px 0 10px 0;
+}
+header a{
+    text-align: center;
+    font-size: 24px;
+    color: black;
+}
+
+#nosotros{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+}
+#nosotros iframe{
+    padding: 10px;
+    margin: 10px;
+}
+
+header ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+header ul li{
+    margin: 10px;
+}
+
+img{
+    width: 150px;
+}
+h1{
+    font-size: 34px;
+    color: rgb(249, 249, 255);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h2{
+    font-size: 34px;
+    color: rgb(5, 5, 5);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+p{
+    font-size: 20px;
+    color: rgb(240, 237, 237);
+}
+
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 10px 0 10px 0;
+    background-color: rgba(20, 17, 11, 0.856);
+}
+
+.caja{
+    width:100%;
+    height:100%;
+    padding:10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.caja img{
+ border-radius: 50px;
+}
+
+.content h1{
+text-align: center;
+}
+.content h3{
+    text-align: center;
+}
+
+.content{
+    margin: 10px 0 10px 0;
+    background-color: #c77912b0 ;
+}
+
+.carousel-slide img{
+    border: 10px 0 10px 0;
+}
+
+
+.hola{
+    margin:10px 0 0  0 ;
+     background-color:  rgba(20, 17, 11, 0.856);
+}
+
+footer p{
+    font-size:20 ;
+    color: rgb(252, 250, 250);
+}
+footer{
+    background-color: rgba(20, 17, 11, 0.856);;
+}
